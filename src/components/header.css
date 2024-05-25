@@ -1,0 +1,33 @@
+.curved-menu-container {
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    padding: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 60%; /* Adjust the width as needed */
+    margin-left: auto; /* Align container in center horizontally */
+    margin-right: auto; /* Align container in center horizontally */
+    background: rgba(95, 50, 104, 0.42);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+  }
+  
+  .ant-menu-horizontal {
+    background-color: transparent !important;
+    border: none !important;
+  }
+  
+  .ant-menu-horizontal > .ant-menu-item {
+    padding: 0 20px;
+  }
+  
+  .ant-menu-horizontal > .ant-menu-item:hover {
+    background-color: #1890ff; /* Adjust as needed */
+  }
+  
+  .ant-menu-horizontal > .ant-menu-item:hover a {
+    color: #fff; /* Adjust as needed */
+  }
+  
