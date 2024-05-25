@@ -1,6 +1,6 @@
 .curved-menu-container {
     display: flex;
-    justify-content: center; /* Align items horizontally in the center */
+    justify-content: space-between; /* Align items horizontally in the center */
     padding: 10px;
     margin-top: 20px;
     overflow: hidden;
@@ -30,4 +30,12 @@
   .ant-menu-horizontal > .ant-menu-item:hover a {
     color: #fff; /* Adjust as needed */
   }
-  
+  .logo {
+    font-size: 20px; /* Adjust font size of the logo text */
+    font-weight: bold; /* Adjust font weight of the logo text */
+    font-family: Arial, sans-serif; /* Change font family of the logo text */
+    text-align: left; /* Align the logo text to the left */
+    color: #fff;
+    align-self: center;
+    margin-left: 5px;
+  }
