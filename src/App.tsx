@@ -1,11 +1,12 @@
 import React from 'react';
 import CurvedMenu from './components/Header';
+import CardComponent from './components/Content';
 import './App.css'
 const App = () => {
   return (
     <div className='background-image-container'>
-      {/* Other content of your application */}
       <CurvedMenu />
+      <CardComponent />
     </div>
   );
 };
